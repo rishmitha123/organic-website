@@ -1,0 +1,111 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    /* overflow:hidden; */
+    
+}
+
+
+.one{
+    background-color:purple;
+}
+.navtxt{
+    font-weight: bold;
+    color:white !important;
+    font-size:20px;
+    padding:1%;
+}
+/* home section */
+.bgimage{
+    background-image: url('https://img.freepik.com/premium-photo/close-up-leaves_81048-27363.jpg?w=1060');
+    width:100vw;
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.8;
+    
+
+}
+/* heading */
+.head{
+    color:crimson;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+}
+.para{
+    color:blue;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.bts{
+    background-color: red;
+    color:whitesmoke;
+}
+.bts:hover{
+    transform: scale(1.2);
+}
+.sec1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+
+}
+/* about */
+#About{
+    background-color: #fff;
+    width:100vw;
+    
+
+}
+.card-img-top{
+    aspect-ratio:3/2;
+}
+.card-title{
+    color:red;
+    font-weight:bold;
+    font-size:20px;
+}
+/* payment */
+#payment{
+    width:100vw;
+
+}
+.form-label{
+    color:green;
+    font-size:20px;
+    font-weight: bold;
+}
+/* footer */
+.footer{
+    background-color: red;
+    width:100vw;
+}
+.fa-brands{
+    color:white;
+}
+.fa-brands:hover{
+    color:yellowgreen;
+}
+.foot{
+    color:yellowgreen
+}
+.foot:hover{
+    color:#fff;
+}
+.fa-solid{
+    position:sticky;
+    color:green;
+    border:2px solid red;
+    font-size:30px;
+    background-color: red;
+    bottom:0%;
+    right:0%;
+    position:absolute;
+}
